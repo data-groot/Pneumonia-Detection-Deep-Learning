@@ -1,0 +1,11 @@
+*.keras
+*.h5
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+archive/
+archive.zip
+*.zip
+Urop Report.docx
+Medical Image Classification Using CNN.pptx
