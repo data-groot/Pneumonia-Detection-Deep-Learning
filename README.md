@@ -18,12 +18,12 @@ This project applies deep learning to automatically detect pneumonia from chest 
 
 ## 📊 Model Comparison
 
-| Model          | Accuracy    | Precision | Recall | AUC-ROC |
-| -------------- | ----------- | --------- | ------ | ------- |
-| Baseline CNN   | 96.17%      | -         | -      | -       |
-| DenseNet121    | Coming soon | -         | -      | -       |
-| EfficientNetB3 | Coming soon | -         | -      | -       |
-| ResNet50V2     | Coming soon | -         | -      | -       |
+| Model          | Accuracy    | Precision | Recall | F1-Score | AUC-ROC |
+| -------------- | ----------- | --------- | ------ | -------- | ------- |
+| Baseline CNN   | 97%         | 96%       | 94%    | 95%      | 0.9949  |
+| DenseNet121    | Coming soon | -         | -      | -        | -       |
+| EfficientNetB3 | Coming soon | -         | -      | -        | -       |
+| ResNet50V2     | Coming soon | -         | -      | -        | -       |
 
 ---
 
@@ -44,7 +44,7 @@ Pneumonia-Detection-Deep-Learning/
 │   ├── data_loader.py              # Data loading & augmentation
 │   ├── train.py                    # Training logic & callbacks
 │   └── evaluate.py                 # Evaluation & plotting utilities
-├── app/                            # Streamlit web app (coming soon)
+├── app/                            # web app (coming soon)
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -57,7 +57,6 @@ Pneumonia-Detection-Deep-Learning/
 - **Source:** [Chest X-Ray Images (Pneumonia) — Kaggle](https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis)
 - **Classes:** NORMAL, PNEUMONIA
 - **Total Images:** 5,000+
-- **Split:** Train / Validation / Test
 
 > Dataset is not included in this repository. Download it from Kaggle and place it in an `archive/` folder at the project root.
 
@@ -124,7 +123,7 @@ Open any notebook in `notebooks/` and run all cells.
 
 ---
 
-## 🔮 Future Work
+<!-- ## 🔮 Future Work
 
 - [ ] Grad-CAM visualizations — highlight regions the model focuses on
 - [ ] Extend to multi-class detection (COVID-19, Tuberculosis)
@@ -133,7 +132,7 @@ Open any notebook in `notebooks/` and run all cells.
 - [ ] Hyperparameter tuning with Keras Tuner / Optuna
 - [ ] Swin Transformer implementation
 
----
+--- -->
 
 ## 🛠️ Tech Stack
 
@@ -145,14 +144,14 @@ Open any notebook in `notebooks/` and run all cells.
 
 ---
 
-## 👤 Author
+<!-- ## 👤 Author
 
-**Krishna Mihir Tatavarthi**  
-MS Computer Science — UMBC  
+**Krishna Mihir Tatavarthi**
+MS Computer Science — UMBC
 [GitHub](https://github.com/data-groot) • [LinkedIn](https://www.linkedin.com/in/your-linkedin)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. -->
