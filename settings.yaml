@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 threshold: 0.3
+=======
+threshold: 0.9
+>>>>>>> 69fe4906993f091791ed3604b958a6813b4f1c4e
 window: 300
